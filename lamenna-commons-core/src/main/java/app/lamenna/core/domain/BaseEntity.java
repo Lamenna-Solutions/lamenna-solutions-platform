@@ -1,3 +1,5 @@
+package app.lamenna.core.domain;
+
 import jakarta.persistence.*;
 
 import java.time.Instant;
