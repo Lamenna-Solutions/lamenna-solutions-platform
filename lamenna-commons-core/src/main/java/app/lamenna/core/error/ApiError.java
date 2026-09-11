@@ -13,7 +13,7 @@ public record ApiError(
 ) {
     public record FieldError(String field, String message) {}
 
-    public static ApiError of(int code, String message, String error, String path) {
+    public ApiError of(int code, String message, String error, String path) {
         return new ApiError(Instant.now(), code, message, error, path, fieldErrors);
     }
 }
