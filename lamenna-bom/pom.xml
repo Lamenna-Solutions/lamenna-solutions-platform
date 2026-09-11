@@ -17,6 +17,11 @@
                 <artifactId>lamenna-commons-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>app.lamenna.commons</groupId>
+                <artifactId>lamenna-commons-security</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
