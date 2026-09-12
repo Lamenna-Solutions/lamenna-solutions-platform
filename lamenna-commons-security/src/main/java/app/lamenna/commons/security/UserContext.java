@@ -2,8 +2,8 @@ package app.lamenna.commons.security;
 
 import java.util.*;
 
-public class UserContext {
-    UUID userId;
-    Optional<AuthenticatedUser> currentUser;
+public interface UserContext {
+    UUID currentUserId();
+    Optional<AuthenticatedUser> currentUser();
 
 }
